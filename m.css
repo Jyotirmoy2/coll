@@ -1,0 +1,373 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:fantasy;
+    
+}
+
+header{
+    
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.5)),url(clg.jpg);
+    background-size: cover;
+    background-position: center ; 
+    height: 80vh;
+}
+
+ul{
+    float: right;
+    list-style: none;
+    margin-top: 25px;
+    margin-right: 60px;
+}
+
+li{
+    display:inline-block;
+}
+
+ul li a{
+    
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 25px;
+    border: 1px solid transparent;
+    transition: 0.6s ease;
+    border-radius: 11px;
+    font-family:monospace;
+    font-size: 19px
+}
+
+
+ul li.active a{
+    
+    background-color:#fff;
+    color:#000;
+    font-family:monospace;
+}
+
+ul li a:hover{
+    
+    background-color:#fff;
+    color: black;    
+}
+
+.title{
+    
+    position:absolute;
+    top: 38%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    width: 1000PX;
+    margin-top: 50px
+}
+
+
+.title h1{
+    color: #ffffffff;
+    font-size: 40px;
+    font-family:monospace;
+}
+
+
+
+
+
+
+
+.team-section{
+    
+    overflow: hidden;
+    text-align: center;
+    background: #00b894;
+    padding: 100px;
+    height: 100vh;
+    
+}
+
+.team-section h1{
+    
+    
+    text-transform: uppercase;
+    margin-bottom: 60px;
+    color: black;
+    font-size: 40px;
+    font-family:serif;
+    
+    
+}
+.border{
+    
+    display: block;
+    margin: auto;
+    width: 160px;
+    height: 2px;
+    background: #e74c3c;
+    margin-bottom: 40px;
+    
+}
+
+
+.ps{
+    margin-bottom: 40px;
+} 
+.ps a{
+    
+    display: inline-block;
+    margin: 0 30px;
+    width:160px;
+    height: 160px;
+    overflow: hidden;
+    border-radius: 50%;
+    
+}
+.ps a img{
+    
+    width: 100%;
+    filter: grayscale(100%);
+    transition: 0.4s all;
+    
+}
+    
+.ps a:hover > img{
+    
+    filter: none;
+    
+}
+
+.section{
+    
+    width: 600px;
+    margin:auto;
+    font-size: 20px;
+    color: black;
+    text-align: justify;
+    height: 0;
+    overflow: hidden;
+    color: black;
+    margin-bottom:;
+    height: -40vh;
+    
+}
+
+
+
+.section:target {
+    
+    height: auto;
+    
+}
+
+.name{
+    display: block;
+    margin-bottom: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 22px;
+    font-family: serif;
+       
+}
+ 
+
+
+
+
+
+
+
+
+.content{
+    
+    padding: 100px;
+    height: 70vh;
+    background:#227093 ;
+    overflow: hidden;
+}
+
+h1.head{
+    font-family: serif;
+    font-size: 35px;
+    color: #ced6e0;
+}
+
+.scm{
+    
+    font-family: serif;
+    font-size: 42px;
+    color:#ffffff;
+}
+
+.clg{
+    
+    float:right;
+    margin-left:70%;
+    margin-top: -559px;
+    
+}
+
+ p.p6{
+    
+    color:#f7f1e3 ;
+    margin-right: 600px;
+     margin-top: 80px;
+     font-family:serif;
+     font-size: 21px
+}
+
+.qto{
+    color:#ffffffff;
+    font-family: serif;
+        font-size: 25px;
+    margin-top: 29px;
+    margin-right: 700px;
+}
+    
+
+
+
+
+
+
+.contact{
+    
+   
+    background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(contact.jpg) no-repeat center;
+    background-size: cover;
+    padding: 40px 0;
+    height: 80vh;  
+    
+}
+
+.contact h1{
+    
+    text-align: center;
+    color: #ddd;
+    font-family: serif;
+    
+}
+
+.contact-form{
+    
+    max-width: 600px;
+    margin: auto;
+    padding: 0 10px;
+    overflow: hidden;   
+}
+
+.contact-form-text{
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 16px 0;
+    border: 0;
+    background: #111;  
+    padding: 20px 40px;
+    outline: none;
+    color: #ddd;
+    transition: 0.5s;
+    font-family: serif;
+    height: 10vh;
+    font-size: 19px
+    
+    
+}
+
+
+.contact-form-text:focus{
+    
+    box-shadow: 0 0 10px 4px #00a8ff;
+    
+}
+textarea.contact-form-text{
+    
+    resize: none;
+    height: 130px;
+    font-size: 19px;
+    
+}
+
+.contact-form-btn{
+    
+    float: right;
+    border: 0;
+    background: #487eb0;
+    color:#fff;
+    padding: 12px 50px;
+    border-radius: 20px;
+    margin-top: 4px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.contact-form-btn:hover{
+    
+    background: #4cd137;
+    
+}
+
+
+    
+
+
+
+
+
+
+
+.fo{
+    
+    height: 40vh;
+    width: 100%;
+    background-color:#34495e;font-family: serif;
+        
+}
+
+.fotter{
+    padding: 30px 5px;
+}   
+
+h4.had{
+    
+    float: left;
+    font-family: serif;
+    margin-right:284px ;
+    color: #ffffffff;
+    font-size: 30px;    
+}
+
+ul.clg-name{
+    
+    float: left;
+padding: px;
+    font-family:serif;
+    color: #bdc3c7;
+    margin-top: 30px;
+    margin-left: 24px;
+}
+li{
+    
+    font-family: serif;
+    
+}
+p{
+    color: antiquewhite;
+    padding: 30px 5px 5px 6px; 
+    margin-top: 250px;
+    float: right;
+    margin-left: 10px;
+    font-family: serif;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
